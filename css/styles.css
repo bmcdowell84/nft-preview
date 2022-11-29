@@ -1,0 +1,96 @@
+* {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    width: 335px;
+    height: 610px;
+    margin: 100px auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.item {
+    width: 295px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(216, 50%, 16%);
+    margin: 20px;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    background-color: hsl(216, 50%, 16%);
+    margin: 20px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: solid;
+    height: 1px;
+    color: hsl(215, 32%, 27%);
+    width: 295px;
+}
+
+img {
+    background-color: hsl(216, 50%, 16%);
+    align-items: center;
+}
+
+.info {
+    display: inline-block;
+    background-color: hsl(216, 50%, 16%);
+    margin: 0px 20px;
+}
+
+.price {
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    margin-left: 5px;
+    font-weight: 300;
+    margin-right: 100px;
+}
+
+.days {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    justify-content: right;
+    font-weight: 300;
+    margin: auto 0px auto 5px;
+}
+
+.footer {
+    background-color: hsl(216, 50%, 16%);
+}
+
+.person {
+    display: inline-box;
+    margin: 20px;
+    margin-top: 0px;
+    width: 35px;
+    border: solid;
+    border-radius: 100%;
+    border-width: 1px;
+    border-color: white;
+    float: left;
+}
+
+.name {
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
